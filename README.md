@@ -9,6 +9,10 @@
 
 ## 3 将mrsf.jar包与mrsf项目中的lib中的第三方jar包都引入新建的java项目
 
+    示例：
+        将 mrsf-1.0.jar，mrsf源码中的lib目录下的org.restlet.ext.jaxrs.jar ，org.restlet.jar 
+        同时放入到新项目中的 lib目录下，并加入到eclipse的Bulid Path中
+
 ## 4 新建模块
 
 ### 新建一个模块包：test.helloworld
