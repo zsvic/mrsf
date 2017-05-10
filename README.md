@@ -3,7 +3,7 @@
 
 # 使用方法
 
-## 1 打包源码或下载release版jar包
+## 1 打包源码或下载release版jar包，得到mrsf.jar
 
 ## 2 新建java项目
 
