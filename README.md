@@ -111,5 +111,30 @@ public class helloworldModule implements IModule {
 }
 ```
 
-## 完成
+## 5 创建Main类，开启mrsf
+
+	创建Main类，作为新项目的入口
+	创建 MrsfHandle对象 ：mrsfhandle
+	添加模块路径配置：mrsfhandle.addModule()
+	启动mrsf： mrsfhandle.start();
+
+```java
+
+import mrsf.core.handle.MrsfHandle;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MrsfHandle mrsfhandle = new MrsfHandle();
+		
+		mrsfhandle.addModule("mrsftest.module1.module1");
+		mrsfhandle.start();
+	}
+
+}
+```
+
+## 6 完成
    mrsf默认监听端口为8888，使用 http:127.0.0.1:8888/helloworld/hello 访问服务，返回“hello world”
